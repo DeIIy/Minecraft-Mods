@@ -1,6 +1,6 @@
 # Minecraft Fabric Mod Kurulum Kılavuzu
 
-*Merhaba*, bu kılavuz Minecraft serverınıza mod eklemek için gereken adımları ayrıntılı bir şekilde anlatmaktadır.
+*Merhaba*, bu kılavuz Minecraft serverınıza mod ve kaynak paketi eklemek için gereken adımları ayrıntılı bir şekilde anlatmaktadır.
 
 ---
 
@@ -30,8 +30,8 @@
 
 ## Adım 4: Mod Dosyalarının Eklenmesi
 
-1. [GitHub](https://github.com/) adresine gidin.
-2. İlgili .jar uzantılı mod dosyalarını bilgisayarınıza indirin.
+1. [GitHub](https://github.com/DeIIy/Minecraft-Mods/tree/main/mods) adresine gidin.
+2. İlgili **.jar** uzantılı mod dosyalarını bilgisayarınıza indirin.
 3. İndirdiğiniz mod dosyalarını oluşturduğunuz ya da mevcut olan *mods* klasörüne taşıyın.
 
 ---
@@ -45,14 +45,27 @@
 
 ---
 
-## Adım 6: Hamachi Yüklemesi
+## Adım 6: FreshAnimations Kaynak Paketini Yükleme
+
+1. [FreshAnimations_v1.9.3](https://www.curseforge.com/minecraft/texture-packs/fresh-animations) dosyasını indirin.
+2. **Win+R** tuşlarına basarak *Çalıştır* penceresini açın.
+3. Açılan kutuya *%AppData%* yazın ve Enter’a basın.
+4. **.minecraft** klasörüne girin.
+5. Eğer *resourcepacks* adında bir klasör varsa, içine girin.  
+   - *Not:* Eğer yoksa, **resourcepacks** adında yeni bir klasör oluşturun.  
+6. **FreshAnimations_v1.9.3.zip** dosyasını *resourcepacks* klasörüne taşıyın.
+7. Minecraft'a girdikten sonra *Options > Resource Packs* menüsünden paketi etkinleştirin.
+
+---
+
+## Adım 7: Hamachi Yüklemesi
 
 1. [Hamachi web sitesine](https://vpn.net/) gidin.
 2. Hamachi uygulamasını indirin ve yükleyin.
 
 ---
 
-## Adım 7: Hamachi ile Ağa Bağlanma
+## Adım 8: Hamachi ile Ağa Bağlanma
 
 1. Yüklenen Hamachi’yi çalıştırın.
 2. *Mevcut ağa bağlan* seçeneğini kullanarak, size verilen kullanıcı adı ve şifre ile ağa giriş yapın.
@@ -60,7 +73,7 @@
 
 ---
 
-## Adım 8: Minecraft'ın Başlatılması ve Servera Bağlanma
+## Adım 9: Minecraft'ın Başlatılması ve Servera Bağlanma
 
 1. Tlauncher üzerinden, Fabric 1.21.4 versiyonunu seçerek Minecraft’ı başlatın.
 2. Ana menüde *Multiplayer* sekmesine gidin.
@@ -69,6 +82,6 @@
 
 ---
 
-*Minecraft serverına başarılı bir şekilde girdiniz, tebrikler!*
+*Minecraft serverına başarılı bir şekilde girdiniz, tebrikler! 🎉*
 
-Bu kılavuz sayesinde, adım adım mod kurulum ve servera bağlanma işlemlerini kolaylıkla gerçekleştirebilirsiniz. Herhangi bir sorunla karşılaşırsanız, ilgili web sitelerinin destek dokümanlarını incelemeniz yararlı olabilir.
+Bu kılavuz sayesinde, adım adım mod kurulum, kaynak paketi ekleme ve servera bağlanma işlemlerini kolaylıkla gerçekleştirebilirsiniz. Herhangi bir sorunla karşılaşırsanız, ilgili web sitelerinin destek dokümanlarını incelemeniz yararlı olabilir.
